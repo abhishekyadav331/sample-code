@@ -23,7 +23,7 @@ class ComplexAndroidTests(unittest.TestCase):
         )
 
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-
+os
     def tearDown(self):
         self.driver.quit()
 
